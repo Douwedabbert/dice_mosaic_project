@@ -5,8 +5,8 @@ from dice_mosaic import generate_dice_mosaic
 
 
 # Central configuration
-FILE_PATH = "Test.JPEG"
-MAX_DICE = 6000
+FILE_PATH = "Test.JPEG" # Choose image to turn into mosaic
+MAX_DICE = 10000 # Choose max number of dice to be used for mosaic
 TWELVE_DICE = True
 DICE_OUTPUT_DIR = "Dice_imgs"
 MOSAIC_OUTPUT_PATH = "dice_mosaic_output.png"
